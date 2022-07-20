@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Interstellar-X</title>
+<meta name="keywords" content="InterspaceITX的个人网站">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #333;
+}
+
+/* 头部标题 */
+.header {
+  padding: 33px;
+}
+ 
+.header h2 {
+  color: #f1f1f1;
+}
+/* 导航条 */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(92, 92, 92);
+}
+ 
+/* 导航条链接 */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ 
+/* 链接颜色修改 */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+ 
+/* 创建两列 */
+/* Left column */
+.leftcolumn {   
+  float: right;
+  width: 70%;
+}
+ 
+/* 右侧栏 */
+.rightcolumn {
+  float: right;
+  width: 25%;
+  background-color: #333;
+  padding-left: 20px;
+}
+ 
+/* 图像部分 */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+ 
+/* 文章卡片效果 */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+ .card2{
+  background-color:rgb(30, 30, 30);
+  color:#f1f1f1;
+  padding: 20px;
+  margin-top: 20px;
+}
+/* 列后面清除浮动 */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+/* 底部 */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+ 
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+ 
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+a{ 
+text-decoration:none;
+color:black;
+}
+.avatar-img {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 110px;
+    height: 110px;
+    border-radius: 70px;
+}
+.avatar-img img {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: filter 375ms ease-in 0.2s, -webkit-transform 0.3s;
+    -moz-transition: filter 375ms ease-in 0.2s, -moz-transform 0.3s;
+    -o-transition: filter 375ms ease-in 0.2s, -o-transform 0.3s;
+    -ms-transition: filter 375ms ease-in 0.2s, -ms-transform 0.3s;
+    transition: filter 375ms ease-in 0.2s, transform 0.3s;
+    object-fit: cover;
+}
+.di
+{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+</style>
+</head>
+<body>
+<div class="header">
+  <h2>ITX个人游戏记录网</h2>
+</div>
+
+<div class="topnav">
+  <a href="#">首页/Home Page</a>
+  <a style="float:right;">Visiter</a>
+</div>
+
+<div class="row">
+  <div class="rightcolumn">
+    <div class="card">
+        <h3>当前我的世界存档数:1</h3>
+    </div>
+  </div>
+  <div class="leftcolumn">
+    <div class="card">
+        <h3>当前游戏任务</h3>
+    </div>
+    <div class="card">
+      <h3>交通完善装饰</h3>
+      <p>游戏:我的世界</p><p>存档1</p>
+      <div class="fakeimg">
+      <p>将现有的交通完善并加以现代(黑或白色)风格装饰</p>
+      </div>
+    </div>
+    <div class="card">
+      <h3>工业加工区</h3>
+      <p>游戏:我的世界</p><p>存档1</p>
+      <div class="fakeimg">
+      <p>建立4*4区块的工业加工区</p>
+      <p>包含单人高效刷石机*1,小型作物骨粉催熟机*2,生物农场*2,储存间*2,附魔间*1,多人快速回传水槽*1</p>
+      </div>
+    </div>
+    <div class="card">
+      <h3>村落建立</h3>
+      <p>游戏:我的世界</p><p>存档1</p>
+      <div class="fakeimg">
+      <p>建立范围:出生点周围30*30个区块(480*480*1)</p>
+      <p>风格:中世纪 基调:暖</p>
+      <p>单个水平规模:4*3区块 单个垂直规模:16格以下</p>
+      </div>
+    </div>
+    <div class="card">
+        <h3>物品兑换表(找ITX兑换)</h3>
+        <p>游戏:我的世界</p><p>存档1</p>
+        <h4>金锭*1</h4>
+        <div>1、猪肉*4</div>
+        <div>2、牛肉*3</div>
+        <div>3、面包*10</div>
+        <div>4、浆果*15</div>
+        <h4>铁锭*1</h4>
+        <div>1、木板*32</div>
+        <div>2、原石*32</div>
+        <div>3、泥土*64</div>
+        <div>4、石砖*16</div>
+        <div>5、工作台*8</div>
+        <div>6、熔炉*4</div>
+    </div>
+    <div class="card">
+        <h3>矿物交易表(找ITX交易)</h3>
+        <p>游戏:我的世界</p><p>存档1</p>
+        <h4>煤炭*8=铁锭*1</h4>
+        <h4>铁锭*4=金锭*1</h4>
+        <h4>金锭*8=钻石*1</h4>
+        <h4>钻石*1=绿宝石*1</h4>
+        <h4>钻石*3=下届合金锭*1</h4>
+        <h4></h4>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <center><div>e-mail:daviduu@126.com</div></center>
+  <center><div>版权所有:ITX</div></center>
+</div>
+</body>
+</html>
